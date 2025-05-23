@@ -1,0 +1,341 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto',sans-serif;
+    color:rgb(94, 92, 92);
+    overflow: hidden;
+}
+ a{
+    font-family:'Roboto',sans-serif;
+    color:black;
+    text-decoration: none;
+ }
+/*------Form container styling-------*/
+.main-container{
+    height:555px;
+    width:405px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-width: 2px;
+    border-style: solid;
+    border-color:  rgb(194, 193, 193);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner-container{
+    background-color:  rgba(196, 196, 196, 0.7) ;
+    height:540px;
+    width:390px;
+    margin:auto;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+/*--X---Form container styling---X---*/
+
+/*----Form Header styling -----*/
+.logo > img{
+    margin: 0px 10px 0px 10px;
+    width: 80px;
+    height: 86px;
+}
+.logo{
+    width: 80px;
+    height: 86px;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-header > h1{
+    padding: 0px 10px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+
+}
+
+/*--X--Form Header styling --X--*/
+
+/*-----Form Info styling-----*/
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:0.5rem;
+}
+
+.form-info > h2{
+    font-size: 0.9rem;
+}
+
+.form-info > h3{
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top:0.6rem;
+}
+.errors{
+    color:red;
+    text-align: center;
+    font-size: 0.7rem;
+    padding:0;
+    margin: 0;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    position: relative;
+    margin: 0 auto;
+    top:1.5rem;
+}
+
+input[type = "text"]{
+    display: block;
+    margin : 0 auto;
+    line-height: 1.3rem;
+    
+
+}
+input[type = "email"]{
+    display: block;
+    margin : 0 auto;
+    line-height: 1.3rem;
+    
+
+}
+
+/*------error message styling---------*/
+.red-text{
+    color:red;
+    text-align: center;
+}
+.red-box{
+    border:2px solid red;
+    border-radius: 10px;
+}
+.red-box:focus{
+    border:2px solid red;
+    border-radius: 10px;
+}
+
+/*---X--Error message Styling----X----*/
+
+.license-label{
+    margin: 0.3rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+.firstname-label{
+    margin: 0.3rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.id-label{
+    margin: 0rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160);
+    border-radius: 10px;
+}
+.lastname-label{
+    margin: 0.3rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.email-label{
+    margin: 0.3rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.telephone-label{
+    display: flex;
+    flex-direction: row;
+    margin: 0.3rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+
+.address{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+
+
+/*//////////////////////////////////////////////////*/
+
+
+.License-Number{
+    margin: 1rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+.first-name{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.national-id{
+    margin: 0rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.last-name{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.email{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.prefix{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.lineNumber{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+.address-style{
+    margin: 0.4rem 0.6rem 0rem 0.6rem;
+    border-color:rgb(160, 160, 160) ;
+    border-radius: 10px;
+}
+
+
+/*Drop down box styling impplemented dynamically using javascript*/
+.parishes{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    top:21rem;
+    border:2px solid black;
+    border-radius: 10px;
+}
+/*--X--Form Info styling--X--*/
+
+/*-----Form button section------*/
+.register-btn{
+    font-family:'Roboto',sans-serif;
+    color:white;
+    position: relative;
+    top: 6rem;
+    background-color:black;
+    border-radius: 15px;
+    height:2.3rem;
+    width: 4.5rem;
+}
+.register-btn:hover{
+    font-family:'Roboto',sans-serif;
+    color: black;
+    position: relative;
+    top: 6rem;
+    background-color:rgba(94, 92, 92, 0.6);
+    height:2.3rem;
+    width: 4.5rem;
+    transition: ease-in 0.1s;
+}
+.cancel-btn{
+    color: white;
+    font-family:'Roboto',sans-serif;
+    position: relative;
+    top: 6rem;
+    background-color:black;
+    border-radius: 15px;
+    height:2.3rem;
+    width: 4.8rem;
+}
+.cancel-btn:hover{
+    font-family:'Roboto',sans-serif;
+    color: black;
+    position: relative;
+    top: 6rem;
+    background-color:rgba(94, 92, 92, 0.6);
+    height:2.3rem;
+    width: 4.5rem;
+    transition: ease-in 0.1s;
+}
+
+/*--X--Form button section---X--*/
+
+@media(max-width: 400px){
+    .main-container{
+        height:570px;
+        width:340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .inner-container{
+        height:555px;
+        width:325px;
+        margin:auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .form-header{
+      flex-direction:column;
+      align-items: center;
+    }
+      
+    .form-header > h1{
+        text-align: center;
+        position:relative;
+        top:-1rem;
+    }
+    
+    .form-info > h3{
+        position: relative;
+        top:-0.3rem;
+    }
+    
+      
+    /*--X---Form container styling---X---*/
+    
+    .button-sections{
+        position: relative;
+        top: 1rem;
+        font-size: 0.7rem;
+    }
+    
+    body{
+        overflow-y: scroll;
+    }
+}

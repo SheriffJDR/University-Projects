@@ -1,0 +1,64 @@
+[
+   [
+      {
+         "nationalId": "1973-02-09-3043",
+         "licenseNo": "135686819730209",
+         "firstName": "Andrew",
+         "lastName": "Pryor",
+         "address1": "31 ",
+         "address2": "Prior Park",
+         "parish": "St. James",
+         "username": "Qwer1234",
+         "password":"andrewPryor123"
+      },
+
+      {
+         "nationalId": "1967-12-12-0404",
+         "licenseNo": "143647819671212",
+         "firstName": "Jennifer",
+         "lastName": "Davis",
+         "address1": "Wavell Ave",
+         "address2": "Black Rock",
+         "parish": "St. Michael",
+         "username": "Geju0593",
+         "password":"Anoth3rpass"
+      },
+
+      {
+         "nationalId": "1979-04-22-1209",
+         "licenseNo": "100893419790422",
+         "firstName": "Anderson",
+         "lastName": "Alleyne",
+         "address1": "Lascelles Terrace",
+         "address2": "The Pine",
+         "parish": "St. Michael",
+         "username": "Oyqb0789",
+         "password":"thePassw0rd"
+      }
+   ],
+
+   [
+      {
+         "employeeId": "11005457ADMN",
+         "firstName": "Merissa",
+         "lastName": "Halliwall",
+         "password":"f1rst1Pa55"
+      },
+
+      {
+         "employeeId": "11000907DRVR",
+         "firstName": "Terold",
+         "lastName": "Bostwick",
+         "password":"secur3Acc3s5"
+      },
+
+      {
+      "employeeId": "11001478CLRK",
+      "firstName": "Vanda",
+      "lastName": "Marshall",
+      "password":"Oll1Ollip0ps"
+      }
+   ]
+]
+
+   

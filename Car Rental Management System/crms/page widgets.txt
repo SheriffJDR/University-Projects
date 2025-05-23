@@ -1,0 +1,6 @@
+Vehicles
+Most popular vehicle models to be rented out(graph)
+number of availible cars
+Numbers of cars rented out today
+List of all car models in table.(Make,model,year,VIN,color,Lcense plate number,odometer reading, availibilty)
+recent rentals
